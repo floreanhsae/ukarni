@@ -539,7 +539,8 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #04293A;
+  ;
 }
 @media (max-width: 1199px) {
   .sidebar {
@@ -594,35 +595,44 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 10px 0 5px 15px;
 }
+
+/* ketika sudah terpilih */
 .sidebar-nav .nav-link {
   display: flex;
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #04293A;
   transition: 0.3;
-  background: #f6f9ff;
+  background: #ECB365;
   padding: 10px 15px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
+
+/* ketika logo sudah di pilih */
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #04293A;
 }
+
+/* ketika tidak di pilih */
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  color: #fff;
+  background: #04293A;
 }
+
+/* logo ketika tidak di pilih */
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: #fff;
 }
+/* ketika di pilih */
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #04293A;
+  background:#ECB365;
 }
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #04293A;
 }
 .sidebar-nav .nav-link .bi-chevron-down {
   margin-right: 0;

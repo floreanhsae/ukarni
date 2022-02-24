@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #04293A;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: #ECB365;
   color: #fff;
 }
 .back-to-top.active {

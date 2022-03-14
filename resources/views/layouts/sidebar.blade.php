@@ -14,42 +14,35 @@
           <i class="bi bi-file-earmark-plus"></i>
           <span>Page</span>
         </a>
-      </li><!-- End Profile Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
-          <i class="bi bi-newspaper"></i>
-          <span>News</span>
-        </a>
-      </li><!-- End F.A.Q Page Nav -->
+      </li><!-- End Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-contact.html">
           <i class="bi bi-briefcase-fill"></i>
           <span>Info Lowongan</span>
         </a>
-      </li><!-- End Contact Page Nav -->
+      </li><!-- End Info Lowongan Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-register.html">
           <i class="bi bi-person-badge"></i>
           <span>Rekrutmen</span>
         </a>
-      </li><!-- End Register Page Nav -->
+      </li><!-- End Rekrutmen Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-login.html">
           <i class="bi bi-calendar-check"></i>
           <span>Agenda</span>
         </a>
-      </li><!-- End Login Page Nav -->
+      </li><!-- End Agenda Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-error-404.html">
           <i class="bi bi-building"></i>
           <span>Perusahaan</span>
         </a>
-      </li><!-- End Error 404 Page Nav -->
+      </li><!-- End Perusahaan Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-blank.html">
@@ -57,15 +50,7 @@
           <span>User</span>
         </a>
       </li>
-      <!-- End Blank Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-blank.html">
-          <i class="bi bi-chat-text"></i>
-          <span>Komentar</span>
-        </a>
-      </li>
-      <!-- End Blank Page Nav -->
+      <!-- End User Page Nav -->
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-blank.html">
@@ -73,7 +58,7 @@
           <span>Other</span>
         </a>
       </li>
-      <!-- End Blank Page Nav -->
+      <!-- End Other Page Nav -->
 
     </ul>
 

@@ -28,3 +28,27 @@ Route::get('/login', function () {
 Route::get('/dashboard/page', function () {
     return view('page');
 });
+
+Route::get('/dashboard/info-lowongan', function () {
+    return view('info-lowongan');
+});
+
+Route::get('/dashboard/rekrutmen', function () {
+    return view('rekrutmen');
+});
+
+Route::get('/dashboard/agenda', function () {
+    return view('agenda');
+});
+
+Route::get('/dashboard/perusahaan', function () {
+    return view('perusahaan');
+});
+
+Route::get('/dashboard/user', function () {
+    return view('user');
+});
+
+Route::get('/dashboard/other', function () {
+    return view('other');
+});

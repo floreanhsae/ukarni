@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/dashboard/page', function () {
     return view('page');
 });
+
+Route::get('/homepage', function () {
+    return view('jas-pens/navbar');
+});

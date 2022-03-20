@@ -239,6 +239,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.btn{
+  color: #fff;
+  background: #04293A;
+  font-size: 15px;
+  border-radius: 15px;
+  transition: 0.3;
+}
+
+.btn:hover{
+  color: #fff;
+  background: #ECB365;
+  font-size: 15px;
+  border-radius: 15px;
+  transition: 0.3;
+}
+
 /* Alerts */
 .alert-heading {
   font-weight: 500;
@@ -336,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .logo img {
-  max-height: 26px;
+  max-height: 45px;
   margin-right: 6px;
 }
 .logo span {

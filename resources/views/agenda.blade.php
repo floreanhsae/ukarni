@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'JAS | PAGE')
+@section('title', 'AGENDA | JAS PENS')
 @section('content')
 
 @endsection

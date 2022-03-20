@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'JAS | PAGE')
+@section('title', 'USER | JAS PENS')
 @section('content')
 
 @endsection

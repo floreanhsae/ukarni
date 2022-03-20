@@ -10,13 +10,6 @@
       </li><!-- End Dashboard Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/page">
-          <i class="bi bi-file-earmark-plus"></i>
-          <span>Page</span>
-        </a>
-      </li><!-- End Page Nav -->
-
-      <li class="nav-item">
         <a class="nav-link collapsed" href="pages-contact.html">
           <i class="bi bi-briefcase-fill"></i>
           <span>Info Lowongan</span>

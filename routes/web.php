@@ -29,10 +29,10 @@ Route::get('/dashboard/page', function () {
     return view('page');
 });
 
-<<<<<<< HEAD
 Route::get('/homepage', function () {
     return view('jas-pens/navbar');
-=======
+});
+
 Route::get('/dashboard/info-lowongan', function () {
     return view('info-lowongan');
 });
@@ -91,5 +91,4 @@ Route::get('/dashboard/user-edit', function () {
 
 Route::get('/dashboard/other', function () {
     return view('other');
->>>>>>> 20aa87bf9f7a8f8bee2fe1d4617cdd72ed6f2bb9
 });

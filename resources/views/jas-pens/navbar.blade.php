@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark py-3">
         <div class="d-flex w-50 order-0">
-            <img class="navbar-brand mr-1" src="{{url('/img/logojas.png')}}" href="#">
+            <img class="navbar-brand mr-1" src="{{ url('/img/logojas.png') }}" href="#">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,31 +59,37 @@
                     <a class="nav-link px-3" href="#">Tentang</a>
                 </li>
             </ul>
-            
+
         </div>
         <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">
-            <button type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;" class="px-3 py-2 btn btn-warning">Buat Akun / Login<i class="pl-2 fa fa-arrow-circle-right"></i></button>
-            </span>
+            <button type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
+                class="px-3 py-2 btn btn-warning">Buat Akun / Login<i
+                    class="pl-2 fa fa-arrow-circle-right"></i></button>
+        </span>
     </nav>
-    
-    <div class="row">
 
-    </div>
-
-    <div class="tm-section tm-section-1 float-right">
-        <div class="tm-textbox tm-textbox-2 tm-bg-dark">
-          <h2 class="tm-text-blue mb-4">Webinar</h2>
-          <p class="mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum convallis faucibus. In quis sapien tincidunt ex aliquam consectetur. Nam consequat sapien a ultrices luctus.
-          </p>
-          <p class="mb-3">
-            At Zoom Meeting
-          </p>
-          <p class="mb-3">
-            13:30 - 16:00 WIB
-          </p>
+        <div class="wl-textbox .col-12 .col-sm-6 .col-lg-8">
+            <h1 class="welcome-text">Selamat Datang Alumni PENS!</h1>
+            <h4 class="welcome-description">Temukan Pekerjaan Impianmu Disini dan Wujudkan Masa Depan Gemilang!</h4>
         </div>
-    </div>
+        <div class=".col-6 .col-lg-4">
+            <div class="tm-section tm-section-1 float-right">
+                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
+                    <h2 class="tm-text-blue mb-4">Webinar</h2>
+                    <p class="mb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum convallis faucibus. In
+                        quis
+                        sapien tincidunt ex aliquam consectetur. Nam consequat sapien a ultrices luctus.
+                    </p>
+                    <p class="mb-3">
+                        At Zoom Meeting
+                    </p>
+                    <p class="mb-3">
+                        13:30 - 16:00 WIB
+                    </p>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'JAS | PENS')
+@section('title', 'HOME | JAS PENS')
 @section('content')
 <main id="main" class="main h-100">
 

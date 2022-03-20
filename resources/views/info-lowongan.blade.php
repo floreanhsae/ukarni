@@ -27,6 +27,29 @@
                             <button type="button" class="btn btn-primary bi bi-plus-circle"> Tambah Info Lowongan</button>
                         </div>
                     </div>
+                    <div class="col-3">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                    </div>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Daftar Lowongan</th>
+                          <th scope="col">Aksi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Lowongan PT.Phase Delta Control (PDC)</td>
+                          <td>
+                            <a class="btn btn-sm btn-primary"><i class="bi bi-pencil-square"></i></a>
+                            <a class="btn btn-sm btn-primary" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
+                        </td>
+                        </tr>
+                      </tbody>
+                    </table>
                     <div class="col-lg-12">
                         
                     </div>

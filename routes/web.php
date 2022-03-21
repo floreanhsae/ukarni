@@ -25,6 +25,14 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/dashboard/page', function () {
+    return view('page');
+});
+
+Route::get('/homepage', function () {
+    return view('jas-pens/navbar');
+});
+
 Route::get('/dashboard/info-lowongan', function () {
     return view('info-lowongan');
 });

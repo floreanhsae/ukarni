@@ -42,7 +42,7 @@
                                 </select>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">+ Perusahaan</button>
+                              <a type="button" class="btn btn-primary bi bi-plus-circle" href="/dashboard/info-lowongan-add-perusahaan"> Perusahaan</a>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Deadline</label>

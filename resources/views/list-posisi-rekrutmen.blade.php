@@ -1,14 +1,14 @@
 @extends('layouts.master')
-@section('title', 'USER | JAS PENS')
+@section('title', 'REKRUTMEN | JAS PENS')
 @section('content')
 <main id="main" class="main h-100">
 
     <div class="pagetitle">
-      <h1>List User</h1>
+      <h1>List Posisi Peserta</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active">List User</li>
+          <li class="breadcrumb-item active">List Posisi Peserta</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -21,10 +21,10 @@
               <div class="card">
 
                 <div class="card-body">
-                    <h5 class="card-title">Welcome Admin <span>| List User</span></h5>
+                    <h5 class="card-title">Welcome Admin <span>| List Posisi Peserta</span></h5>
                     <div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <a type="button" class="btn btn-primary bi bi-plus-circle" href="/dashboard/user-add"> Tambah User</a>
+                            <a type="button" class="btn btn-primary bi bi-plus-circle" href="/dashboard/rekrutmen-list-posisi-add"> Tambah Posisi</a>
                         </div>
                     </div>
                     <div class="col-3">
@@ -36,15 +36,15 @@
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">Daftar User</th>
+                          <th scope="col">List Posisi</th>
                           <th scope="col">Aksi</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Florean Haya Soraya Azalia Erda</td>
+                          <td>Power Builder Development</td>
                           <td>
-                            <a class="btn btn-sm btn-primary" href="/dashboard/user-edit"><i class="bi bi-pencil-square"></i></a>
+                            <a class="btn btn-sm btn-primary" href="/dashboard/rekrutmen-list-posisi-edit"><i class="bi bi-pencil-square"></i></a>
                             <a class="btn btn-sm btn-primary" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
                         </td>
                         </tr>
@@ -64,5 +64,5 @@
       </div>
     </section>
 
-  </main><!-- End #main -->   
+  </main><!-- End #main --> 
 @endsection

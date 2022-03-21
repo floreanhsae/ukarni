@@ -29,12 +29,6 @@
   <!-- Template Main CSS File -->
   <link href="../css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.2.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -49,8 +43,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="../img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Job Arrangement System</span>
+                  <img src="../img/new-logo.png" alt="">
                 </a>
               </div><!-- End Logo -->
 

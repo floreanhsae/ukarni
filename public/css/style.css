@@ -239,20 +239,56 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.form-label{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-control{
+  border-color:#012970;
+  border-radius: 10px;
+  color: #012970;
+}
+
+.form-select{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  border-color: #012970;
+}
+
+td{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+th{
+  font-family: "Poppins", sans-serif;
+}
+
 .btn{
   color: #fff;
   background: #04293A;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 15px;
   transition: 0.3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .btn:hover{
   color: #fff;
   background: #ECB365;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 15px;
   transition: 0.3;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Alerts */

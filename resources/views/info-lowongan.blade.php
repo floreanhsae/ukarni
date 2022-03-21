@@ -7,7 +7,7 @@
       <h1>List Info Lowongan</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
           <li class="breadcrumb-item active">List Info Lowongan</li>
         </ol>
       </nav>
@@ -24,7 +24,7 @@
                     <h5 class="card-title">Welcome Admin <span>| List Info Lowongan</span></h5>
                     <div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button type="button" class="btn btn-primary bi bi-plus-circle"> Tambah Info Lowongan</button>
+                            <a type="button" class="btn btn-primary bi bi-plus-circle" href="/dashboard/info-lowongan-add"> Tambah Info Lowongan</a>
                         </div>
                     </div>
                     <div class="col-3">
@@ -44,7 +44,7 @@
                         <tr>
                           <td>Lowongan PT.Phase Delta Control (PDC)</td>
                           <td>
-                            <a class="btn btn-sm btn-primary"><i class="bi bi-pencil-square"></i></a>
+                            <a class="btn btn-sm btn-primary" href="/dashboard/info-lowongan-edit"><i class="bi bi-pencil-square"></i></a>
                             <a class="btn btn-sm btn-primary" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
                         </td>
                         </tr>

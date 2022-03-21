@@ -2,9 +2,8 @@
  <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/dashboard" class="logo d-flex align-items-center">
         <img src="../img/new-logo.png" alt="">
-        {{-- <span class="d-none d-lg-block">JAS PENS</span> --}}
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -14,10 +13,7 @@
 
         <li class="nav-item dropdown pe-3">
 
-        <a class="dropdown-item d-flex align-items-center" href="#">
-            <span>Log Out</span>
-            <i class="bi bi-box-arrow-right"></i>
-        </a>
+          <button type="button" class="btn btn-primary bi bi-box-arrow-right"> Log Out</button>
         </li>
         <!-- End Profile Nav -->
 

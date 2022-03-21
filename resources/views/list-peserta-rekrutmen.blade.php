@@ -1,14 +1,14 @@
 @extends('layouts.master')
-@section('title', 'USER | JAS PENS')
+@section('title', 'REKRUTMEN | JAS PENS')
 @section('content')
 <main id="main" class="main h-100">
 
     <div class="pagetitle">
-      <h1>List User</h1>
+      <h1>List Rekrutmen Peserta</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active">List User</li>
+          <li class="breadcrumb-item active">List Rekrutmen Peserta</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -21,12 +21,7 @@
               <div class="card">
 
                 <div class="card-body">
-                    <h5 class="card-title">Welcome Admin <span>| List User</span></h5>
-                    <div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <a type="button" class="btn btn-primary bi bi-plus-circle" href="/dashboard/user-add"> Tambah User</a>
-                        </div>
-                    </div>
+                    <h5 class="card-title">Welcome Admin <span>| List Rekrutmen Peserta</span></h5>
                     <div class="col-3">
                     <form class="d-flex">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -34,21 +29,23 @@
                     </form>
                     </div>
                     <table class="table">
-                      <thead>
+                    <thead>
                         <tr>
-                          <th scope="col">Daftar User</th>
-                          <th scope="col">Aksi</th>
+                        <th scope="col">NRP</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Nomor HP</th>
+                        <th scope="col">Universitas</th>
+                        <th scope="col">Jenjang</th>
+                        <th scope="col">Jurusan</th>
+                        <th scope="col">TH. Lulus</th>
+                        <th scope="col">IPK</th>
+                        <th scope="col">Posisi</th>
+                        <th scope="col">CV</th>
                         </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Florean Haya Soraya Azalia Erda</td>
-                          <td>
-                            <a class="btn btn-sm btn-primary" href="/dashboard/user-edit"><i class="bi bi-pencil-square"></i></a>
-                            <a class="btn btn-sm btn-primary" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
-                        </td>
-                        </tr>
-                      </tbody>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
                     </table>
                     <div class="col-lg-12">
                         

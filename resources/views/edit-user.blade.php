@@ -37,7 +37,7 @@
                                 <input type="text" class="form-control" aria-descril>
                             </div>
                             <div>
-                                <button type="submit" class="btn btn-primary">Perbaharui</button>
+                                <button type="submit" class="btn btn-primary">Perbarui</button>
                             </div>
                           </form>
                       </div>

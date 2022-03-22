@@ -11,7 +11,7 @@
                 <a class="nav-link px-3" href="#">Beranda <span class="sr-only">Home</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-3" href="#">Akreditasi</a>
+                <a class="nav-link px-3" href="/homepage/akreditasi">Akreditasi</a>
             </li>
 
             <li class="nav-item dropdown text-center px-3">
@@ -30,7 +30,7 @@
                 <a class="nav-link px-3" style="white-space: nowrap" href="#">Telusur Alumni</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-3" href="#">Tentang</a>
+                <a class="nav-link px-3" href="/homepage/tentang">Tentang</a>
             </li>
         </ul>
 

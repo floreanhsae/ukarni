@@ -62,9 +62,9 @@
 
         </div>
         <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">
-            <button type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
-                class="px-3 py-2 btn btn-warning">Buat Akun / Login<i
-                    class="pl-2 fa fa-arrow-circle-right"></i></button>
+            <a type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
+                class="px-3 py-2 btn btn-warning" href="/homepage/login-regis">Buat Akun / Login<i
+                    class="pl-2 fa fa-arrow-circle-right"></i></a>
         </span>
     </nav>
 

@@ -37,6 +37,23 @@ Route::get('/homepage/upload-cv', function () {
     return view('jas-pens/upload-cv');
 });
 
+Route::get('/homepage/upload-cv-edit', function () {
+    return view('jas-pens/edit-upload-cv');
+});
+
+Route::get('/homepage/akreditasi', function () {
+    return view('jas-pens/akreditasi-user');
+});
+
+Route::get('/homepage/tentang', function () {
+    return view('jas-pens/tentang-user');
+});
+
+Route::get('/homepage/login-regis', function () {
+    return view('jas-pens/loginreg-user');
+});
+
+
 Route::get('/dashboard/info-lowongan', function () {
     return view('info-lowongan');
 });

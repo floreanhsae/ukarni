@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark py-3">
+<nav class="navbar navbar-expand-md navbar-dark py-3 fixed-top">
     <div class="d-flex w-50 order-0">
         <img class="navbar-brand mr-1" src="{{ url('/img/logojas.png') }}" href="#">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">

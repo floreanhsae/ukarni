@@ -16,7 +16,7 @@
 
             <li class="nav-item dropdown text-center px-3">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    data-toggle="dropdown" aria-expanded="false">
                     <span class="d-xl-block d-none"></span>
                     <span class="d-none d-sm-inline">Info Lowongan</span>
                 </a>

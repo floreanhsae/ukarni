@@ -33,6 +33,10 @@ Route::get('/homepage', function () {
     return view('jas-pens/navbar');
 });
 
+Route::get('/homepage/upload-cv', function () {
+    return view('jas-pens/upload-cv');
+});
+
 Route::get('/dashboard/info-lowongan', function () {
     return view('info-lowongan');
 });

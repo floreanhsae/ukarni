@@ -46,9 +46,9 @@
                             </div>
                             <label for="exampleInputEmail1" class="form-label">Tanggal & Jam Pelaksanaan</label>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" aria-descril>
+                                <input type="date" class="form-control" aria-descril>
                                 <span class="input-group-text">S/D</span>
-                                <input type="text" class="form-control" aria-descril>
+                                <input type="time" class="form-control" aria-descril>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Tanggal Tutup Apply</label>

@@ -17,8 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="css/navbar-style.css">
-    <link rel="icon" href="/img/tablogo.png">
+    <link rel="stylesheet" href="../css/navbar-style.css">
+    <link rel="icon" href="../img/Tittle-Logo.png">
     <title>JAS PENS</title>
 </head>
 

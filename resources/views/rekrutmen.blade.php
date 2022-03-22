@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-3">
                     <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <input class="form-control me-2 ds-input" type="search" placeholder="Search" aria-label="Search" id="search-input">
                       <button class="btn btn-primary" type="submit">Search</button>
                     </form>
                     </div>

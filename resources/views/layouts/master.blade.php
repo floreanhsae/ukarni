@@ -13,9 +13,9 @@
 </head>
 
 <body class="vh-100">
+  @include('sweetalert::alert')
   @include('layouts.header')
   @include('layouts.sidebar')
-  
   @yield('content')
   @include('layouts.footer')
   

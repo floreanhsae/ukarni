@@ -1,6 +1,6 @@
 <!-- Favicons -->
-<link href="../img/Tittle-Logo.png" rel="icon">
-<link href="../img/Tittle-Logo.png" rel="apple-touch-icon">
+<link href="{{asset('img/Tittle-Logo.png')}}" rel="icon">
+<link href="{{asset('img/Tittle-Logo.png')}}" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -16,4 +16,6 @@
 <link href="../vendor/simple-datatables/style.css" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">
+{{-- <link rel="stylesheet" href="{{asset('css/header-style.css')}}">
+<link rel="stylesheet" href="{{asset('css/navbar-style.css')}}"> --}}

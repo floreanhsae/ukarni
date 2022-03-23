@@ -31,7 +31,7 @@
       </li><!-- End Agenda Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/dashboard/perusahaan">
+        <a class="nav-link collapsed" href="{{route('admin.perusahaan')}}">
           <i class="bi bi-building"></i>
           <span>Perusahaan</span>
         </a>

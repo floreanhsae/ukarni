@@ -104,18 +104,21 @@ Route::get('/dashboard/agenda-add', function () {
 Route::get('/dashboard/agenda-edit', function () {
     return view('edit-agenda');
 });
-
-Route::get('/dashboard/perusahaan', function () {
-    return view('perusahaan');
+//admin
+Route::namespace('App\Http\Controllers')->name('admin.')->middleware([])->prefix('')->group(function () {
+    Route::get('/dashboard/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'index'])->name('perusahaan');
+    Route::get('/dashboard/perusahaan-add', function () {
+        return view('add-perusahaan');
+    });
+    Route::post('/store/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'store'])->name('store.perusahaan');
+    Route::get('/dashboard/perusahaan-edit/{id}', [App\Http\Controllers\PerusahaanController::class, 'edit'])->name('edit.perusahaan');
+    Route::put('/dashboard/perusahaan-update/{id}', [App\Http\Controllers\PerusahaanController::class, 'update'])->name('update.perusahaan');
+    Route::get('/dashboard/perusahaan-delete/{id}', [App\Http\Controllers\PerusahaanController::class, 'destroy'])->name('delete.perusahaan');
 });
 
-Route::get('/dashboard/perusahaan-add', function () {
-    return view('add-perusahaan');
-});
 
-Route::get('/dashboard/perusahaan-edit', function () {
-    return view('edit-perusahaan');
-});
+
+
 
 Route::get('/dashboard/user', function () {
     return view('user');

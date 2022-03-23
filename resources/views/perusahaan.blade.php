@@ -41,13 +41,15 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>PT. Indonesia Morowali Industrial Park (IMIP)</td>
-                          <td>
-                            <a class="btn btn-sm btn-primary" href="/dashboard/info-lowongan-edit"><i class="bi bi-pencil-square"></i></a>
-                            <a class="btn btn-sm btn-primary" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
-                        </td>
-                        </tr>
+                        @foreach ($data as $item) 
+                          <tr>
+                            <td>{{$item->nama}}<td>
+                            <td>
+                              <a class="btn btn-sm btn-primary" href="{{route('admin.edit.perusahaan', ['id' => $item->id])}}"><i class="bi bi-pencil-square"></i></a>
+                              <a class="btn btn-sm btn-primary" href="{{route('admin.delete.perusahaan', ['id' => $item->id])}}" onclick="return confirm('anda yakin ingin hapus?');"><i class="bi bi-trash"></i></a>
+                          </td>
+                          </tr>
+                        @endforeach
                       </tbody>
                     </table>
                     <div class="col-lg-12">

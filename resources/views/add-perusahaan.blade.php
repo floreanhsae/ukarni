@@ -23,18 +23,19 @@
                   <div class="card-body">
                       <h5 class="card-title">Welcome Admin <span>| Add List Perusahaan</span></h5>
                       <div>
-                        <form>
+                        <form action="{{route('admin.store.perusahaan')}}" method="POST" enctype="multipart/form-data">
+                          @csrf
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Nama Perusahaan</label>
-                                <input type="text" class="form-control" aria-descril>
+                                <input type="text" name="nama" class="form-control" aria-descril>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Daerah</label>
-                                <input type="text" class="form-control" aria-descril>
+                                <input type="text" name="daerah" class="form-control" aria-descril>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Deskripsi</label>
-                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                <textarea class="form-control" name="deskripsi" aria-label="With textarea"></textarea>
                             </div>
                             <div>
                                 <button type="submit" class="btn btn-primary">Simpan</button>

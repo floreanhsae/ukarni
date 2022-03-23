@@ -9,4 +9,4 @@
 <script src="../vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="../js/main.js"></script>
+<script src="{{asset('js/main.js')}}"></script>

@@ -61,7 +61,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <a href="#" class="btn btn-primary">Perbarui Data</a>
+                    <a href="/homepage/upload-cv-edit" class="btn btn-primary">Perbarui Data</a>
                 </div>
             </div>
         </div>

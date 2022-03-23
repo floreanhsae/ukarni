@@ -132,7 +132,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // User
 
 Route::get('/homepage', function () {
-    return view('jas-pens/navbar');
+    return view('jas-pens/beranda-user');
 });
 
 Route::get('/homepage/upload-cv', function () {
@@ -149,6 +149,10 @@ Route::get('/homepage/akreditasi', function () {
 
 Route::get('/homepage/tentang', function () {
     return view('jas-pens/tentang-user');
+});
+
+Route::get('/homepage/telusur-alumni', function () {
+    return view('jas-pens/telusur-alumni');
 });
 
 Route::get('/homepage/login-regis', function () {

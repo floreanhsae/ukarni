@@ -83,11 +83,13 @@
                             </div>
                           </form>
                       </div>
+                      
                       <div class="col-lg-12">
                           
                       </div>
                   </div>
                   </div>
+                  
   
           <!-- Right side columns -->
           <div class="col-lg-4">

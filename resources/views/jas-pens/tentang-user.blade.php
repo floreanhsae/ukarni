@@ -20,7 +20,12 @@
             </p>
             <br>
             <h4>Kontak</h4>
-            <p>Silahkan hubungi kami di:</p>
+            <p>Silahkan hubungi kami di :<br>
+                • Telp : (031) 5947280 ext. 4116  <br>
+                • Fax : (031) 5946114  <br>
+                • email : jas@eepis-its.edu <br>
+                • SMS Center : 0856 323 6666
+            </p>
         </div>
         <div class="vl"></div>
         <div class="col-sm-4">

@@ -12,8 +12,16 @@
       <ul class="d-flex align-items-center">
 
         <li class="nav-item dropdown pe-3">
+          
+            <a class="btn btn-primary bi bi-box-arrow-right"
+            href="{{ route('logout') }}"
+            onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();"
+            > Log Out</a>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                @csrf
+              </form>
 
-          <button type="button" class="btn btn-primary bi bi-box-arrow-right"> Log Out</button>
         </li>
         <!-- End Profile Nav -->
 

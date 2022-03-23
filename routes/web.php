@@ -122,7 +122,7 @@ Route::get('/dashboard/agenda-edit', function () {
     return view('edit-agenda');
 });
 //admin
-Route::namespace('App\Http\Controllers')->name('admin.')->middleware([])->prefix('')->group(function () {
+Route::namespace('App\Http\Controllers')->name('admin.')->middleware(['auth'])->prefix('')->group(function () {
     Route::get('/dashboard/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'index'])->name('perusahaan');
     Route::get('/dashboard/perusahaan-add', function () {
         return view('add-perusahaan');
@@ -152,3 +152,6 @@ Route::get('/dashboard/user-edit', function () {
 Route::get('/dashboard/other', function () {
     return view('other');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

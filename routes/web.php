@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Admin
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
@@ -24,35 +26,6 @@ Route::get('/dashboard', function () {
 Route::get('/login', function () {
     return view('login');
 });
-
-Route::get('/dashboard/page', function () {
-    return view('page');
-});
-
-Route::get('/homepage', function () {
-    return view('jas-pens/navbar');
-});
-
-Route::get('/homepage/upload-cv', function () {
-    return view('jas-pens/upload-cv');
-});
-
-Route::get('/homepage/upload-cv-edit', function () {
-    return view('jas-pens/edit-upload-cv');
-});
-
-Route::get('/homepage/akreditasi', function () {
-    return view('jas-pens/akreditasi-user');
-});
-
-Route::get('/homepage/tentang', function () {
-    return view('jas-pens/tentang-user');
-});
-
-Route::get('/homepage/login-regis', function () {
-    return view('jas-pens/loginreg-user');
-});
-
 
 Route::get('/dashboard/info-lowongan', function () {
     return view('info-lowongan');
@@ -121,21 +94,6 @@ Route::get('/dashboard/agenda-add', function () {
 Route::get('/dashboard/agenda-edit', function () {
     return view('edit-agenda');
 });
-//admin
-Route::namespace('App\Http\Controllers')->name('admin.')->middleware(['auth'])->prefix('')->group(function () {
-    Route::get('/dashboard/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'index'])->name('perusahaan');
-    Route::get('/dashboard/perusahaan-add', function () {
-        return view('add-perusahaan');
-    });
-    Route::post('/store/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'store'])->name('store.perusahaan');
-    Route::get('/dashboard/perusahaan-edit/{id}', [App\Http\Controllers\PerusahaanController::class, 'edit'])->name('edit.perusahaan');
-    Route::put('/dashboard/perusahaan-update/{id}', [App\Http\Controllers\PerusahaanController::class, 'update'])->name('update.perusahaan');
-    Route::get('/dashboard/perusahaan-delete/{id}', [App\Http\Controllers\PerusahaanController::class, 'destroy'])->name('delete.perusahaan');
-});
-
-
-
-
 
 Route::get('/dashboard/user', function () {
     return view('user');
@@ -152,6 +110,47 @@ Route::get('/dashboard/user-edit', function () {
 Route::get('/dashboard/other', function () {
     return view('other');
 });
+
+
+//admin
+Route::namespace('App\Http\Controllers')->name('admin.')->middleware(['auth'])->prefix('')->group(function () {
+    Route::get('/dashboard/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'index'])->name('perusahaan');
+    Route::get('/dashboard/perusahaan-add', function () {
+        return view('add-perusahaan');
+    });
+    Route::post('/store/perusahaan', [App\Http\Controllers\PerusahaanController::class, 'store'])->name('store.perusahaan');
+    Route::get('/dashboard/perusahaan-edit/{id}', [App\Http\Controllers\PerusahaanController::class, 'edit'])->name('edit.perusahaan');
+    Route::put('/dashboard/perusahaan-update/{id}', [App\Http\Controllers\PerusahaanController::class, 'update'])->name('update.perusahaan');
+    Route::get('/dashboard/perusahaan-delete/{id}', [App\Http\Controllers\PerusahaanController::class, 'destroy'])->name('delete.perusahaan');
+});
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// User
+
+Route::get('/homepage', function () {
+    return view('jas-pens/navbar');
+});
+
+Route::get('/homepage/upload-cv', function () {
+    return view('jas-pens/upload-cv');
+});
+
+Route::get('/homepage/upload-cv-edit', function () {
+    return view('jas-pens/edit-upload-cv');
+});
+
+Route::get('/homepage/akreditasi', function () {
+    return view('jas-pens/akreditasi-user');
+});
+
+Route::get('/homepage/tentang', function () {
+    return view('jas-pens/tentang-user');
+});
+
+Route::get('/homepage/login-regis', function () {
+    return view('jas-pens/loginreg-user');
+});

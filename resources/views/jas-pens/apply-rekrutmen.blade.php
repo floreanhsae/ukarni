@@ -34,7 +34,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Jenjang</label>
-                            <select class="form-select" id="inputGroupSelect01">
+                            <select class="form-control form-select" id="inputGroupSelect01">
                                 <option selected>Choose...</option>
                                 <option value="1">Diploma</option>
                                 <option value="2">Sarjana</option>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Posisi Rekrutmen</label>
-                            <select class="form-select" id="inputGroupSelect01">
+                            <select class="form-control form-select" id="inputGroupSelect01">
                                 <option selected>Choose...</option>
                                 <option value="1">Diploma</option>
                                 <option value="2">Sarjana</option>

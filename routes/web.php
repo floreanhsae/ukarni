@@ -130,6 +130,9 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // User
+Route::get('/homepage/login-regis', function () {
+    return view('jas-pens/loginreg-user');
+});
 
 Route::get('/homepage', function () {
     return view('jas-pens/beranda-user');
@@ -155,6 +158,10 @@ Route::get('/homepage/telusur-alumni', function () {
     return view('jas-pens/telusur-alumni');
 });
 
-Route::get('/homepage/login-regis', function () {
-    return view('jas-pens/loginreg-user');
+Route::get('/homepage/info-lowongan', function () {
+    return view('jas-pens/info-lowongan-user');
+});
+
+Route::get('/homepage/info-rekrutmen', function () {
+    return view('jas-pens/info-rekrutmen-user');
 });

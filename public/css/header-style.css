@@ -18,7 +18,7 @@ a {
 
 .vl {
     border-left: 1px solid black;
-    height: 500px;
+    height: auto;
 }
 
 .wl-textbox {

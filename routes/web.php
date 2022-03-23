@@ -165,3 +165,7 @@ Route::get('/homepage/info-lowongan', function () {
 Route::get('/homepage/info-rekrutmen', function () {
     return view('jas-pens/info-rekrutmen-user');
 });
+
+Route::get('/homepage/info-rekrutmen-apply', function () {
+    return view('jas-pens/apply-rekrutmen');
+});

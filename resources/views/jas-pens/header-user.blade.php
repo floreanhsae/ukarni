@@ -36,8 +36,8 @@
 
     </div>
     <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">
-        <button type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
+        <a href="/homepage/upload-cv" type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
             class="px-3 py-2 btn btn-warning">Halo, Ahmad<i
-                class="pl-2 fa fa-arrow-circle-right"></i></button>
+                class="pl-2 fa fa-arrow-circle-right"></i></a>
     </span>
 </nav>

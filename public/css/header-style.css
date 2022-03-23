@@ -17,7 +17,7 @@ a {
 }
 
 .vl {
-    border-left: 1px solid black;
+    border-left: 2px solid #103968;
     height: auto;
 }
 
@@ -150,6 +150,137 @@ a {
 .tm-barcode-box {
     margin-bottom: 30px;
     margin-left: 95px;
+}
+
+.tittle-utama{
+    color: #103968;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header, .card-footer {
+    border-color: #ebeef4;
+    background-color: #fff;
+    color: #798eb3;
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: 500;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+}
+
+thead{
+    background-color: #103968;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align:center;
+    border-radius: 15px;
+}
+
+tbody{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.text-tbody{
+    text-align:center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.tittle-th{
+    color: #103968;
+}
+
+.agenda{
+    background-color: #103968;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.agenda-tittle{
+    color: #F2C808;
+}
+
+.form-label{
+    color: #103968;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-control{
+    border-color:#103968;
+    border-radius: 10px;
+    color: #103968;
+}
+
+.form-select{
+    color: #103968;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: #103968;
+}
+
+.btn{
+    color: #fff;
+    background: #103968;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: 0.3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.btn:hover{
+    color: black;
+    background: #F2CC0F;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: 0.3;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-warning{
+    color: #103968 !important;
+    background: #F2CC0F;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: 0.3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.btn-warning:hover{
+    color: #fff !important;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: 0.3;
+    font-family: "Poppins", sans-serif;
+}
+
+.search-table{
+    background-color: #F0EEF6;
+    border-color:#F0EEF6;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
 }
 
 /* Resposive */

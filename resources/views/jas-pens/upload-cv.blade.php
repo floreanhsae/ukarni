@@ -8,7 +8,7 @@
 <body>
     <br>
     <div class="container">
-        <h1>Data Personal</h1>
+        <h1 class="tittle-utama">Data Personal</h1>
         <br>
     <div class="row">
         <div class="col-sm-7">
@@ -18,12 +18,12 @@
                     <table class="table">
                         <tbody>
                         <tr>
-                            <th scope="row">NP/NRP/NIM</th>
+                            <th scope="row" class="tittle-th">NP/NRP/NIM</th>
                             <td>: 3120500016</td>
                         </tr>
                         <tr>
-                            <th scope="row">Email</th>
-                            <td>: waridunnafis@gmail.com</td>
+                            <th scope="row" class="tittle-th">Email</th>
+                            <td>: ahmadRasyid@gmail.com</td>
                         </tr>
                         </tbody>
                     </table>
@@ -32,31 +32,31 @@
                     <table class="table">
                         <tbody>
                         <tr>
-                            <th scope="row">Nama</th>
-                            <td>: Waridun Nafis</td>
+                            <th scope="row" class="tittle-th">Nama</th>
+                            <td>: Ahmad Rasyid</td>
                         </tr>
                         <tr>
-                            <th scope="row">Telepon</th>
+                            <th scope="row" class="tittle-th">Telepon</th>
                             <td>: 081335xxxxxxx</td>
                         </tr>
                         <tr>
-                            <th scope="row">Universitas</th>
+                            <th scope="row" class="tittle-th">Universitas</th>
                             <td>: PENS</td>
                         </tr>
                         <tr>
-                            <th scope="row">Jenjang</th>
+                            <th scope="row" class="tittle-th">Jenjang</th>
                             <td>: Sarjana</td>
                         </tr>
                         <tr>
-                            <th scope="row">Jurusan/Program Studi</th>
+                            <th scope="row" class="tittle-th">Jurusan/Program Studi</th>
                             <td>: Teknik Informatika</td>
                         </tr>
                         <tr>
-                            <th scope="row">IPK</th>
+                            <th scope="row" class="tittle-th">IPK</th>
                             <td>: 4.00</td>
                         </tr>
                         <tr>
-                            <th scope="row">Tahun Lulus</th>
+                            <th scope="row" class="tittle-th">Tahun Lulus</th>
                             <td>: 2023</td>
                         </tr>
                         </tbody>

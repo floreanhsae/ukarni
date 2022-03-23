@@ -8,7 +8,7 @@
 <body>
     <br>
     <div class="container">
-        <h1>Buat Akun Anda Disini</h1>
+        <h1 class="tittle-utama">Buat Akun Anda Disini</h1>
         <br>
     <div class="row">
         <div class="col-sm-7">

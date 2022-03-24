@@ -8,16 +8,16 @@
 <body>
     <br>
     <div class="container">
-        <h1>Info Lowongan Kerja</h1>
+        <h1 class="tittle-utama">Info Lowongan Kerja</h1>
         <br>
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <div class="col-4">
+                    <div class="col-3">
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search for Lowongan " aria-label="Search">
-                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input class="form-control me-2 search-table" type="search"  placeholder="Search for Lowongan " aria-label="Search">
+                            {{-- <a class="btn btn-primary button-search" type="submit">Search</a> --}}
                         </form>
                         </div>
                         <br>
@@ -30,28 +30,28 @@
                             <th scope="col">Deadline</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-tbody">
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url">Lowongan Kerja</a></td>
+                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url">Lowongan Kerja</a></td>
+                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url">Lowongan Kerja</a></td>
+                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url">Lowongan Kerja</a></td>
+                            <td><a href="url" class="text-tbody"x>Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
@@ -62,7 +62,4 @@
         </div>
     </div>
 </body>
-
-<br>
-<br>
 @endsection

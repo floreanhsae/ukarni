@@ -8,13 +8,13 @@
 <body>
     <br>
     <div class="container">
-        <h1>Data Personal</h1>
+        <h1  class="tittle-utama">Data Personal</h1>
         <br>
     <div class="row">
-        <div class="col-sm-7">
+        <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">INFORMASI & LOGIN</h5>
+                    <h5 class="card-title tittle-login">INFORMASI & LOGIN</h5>
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">NP/NRP/NIM</label>
@@ -26,7 +26,7 @@
                         </div>
                 </form>
                     <br>
-                    <h5 class="card-title">DATA PERSONAL</h5>
+                    <h5 class="card-title tittle-login">DATA PERSONAL</h5>
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama</label>
@@ -63,22 +63,6 @@
                         </div>
                 </form>
                     <a href="#" class="btn btn-primary">Perbarui</a>
-                </div>
-            </div>
-        </div>
-        <div class="vl"></div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">CURRICULUM VITAE</h5>
-                    {{-- <p class="card-text">[Unggah dalam format file .pdf | Maks. 400Kb ]</p> --}}
-                    <form>
-                    <div class="mb-3">
-                        <label for="formFile" class="form-label"> [Unggah dalam format file .pdf | Maks. 400Kb] </label>
-                        <input class="form-control" type="file">
-                    </div>
-                    <a href="#" class="btn btn-primary">Perbarui</a>
-                </form>
                 </div>
             </div>
         </div>

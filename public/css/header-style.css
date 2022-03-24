@@ -18,6 +18,27 @@ nav .navbar-nav li a{
     height: 6vh;
 }
 
+.dropdown-menu{
+    background-color: #103968;
+    border-color: #F2C808;
+}
+
+.dropdown-item{
+    background-color: #103968;
+    color: #fff;
+    font-size: 14px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500;
+}
+
+.dropdown-item:hover{
+    background-color: #F2C808;
+    color: #fff;
+    font-size: 14px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500;
+}
+
 .vl {
     border-left: 1px solid black;
     height: auto;

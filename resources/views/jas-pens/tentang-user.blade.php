@@ -41,7 +41,6 @@
                             <p>13:30 - 16:00 WIB</p>
                         </div>
                     </div>
-                    <br>
                     <div class="card agenda">
                         <div class="card-body">
                             <a href="url" class="agenda-tittle">Webinar</a>
@@ -50,7 +49,6 @@
                             <p>13:30 - 16:00 WIB</p>
                         </div>
                     </div>
-                    <br>
                     <div class="card agenda">
                         <div class="card-body">
                             <a href="url" class="agenda-tittle">Webinar</a>

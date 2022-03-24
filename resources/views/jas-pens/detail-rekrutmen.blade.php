@@ -1,5 +1,5 @@
 @extends('jas-pens.master-user')
-@section('title', 'DETAIL AGENDA | JAS PENS')
+@section('title', 'DETAIL REKRUTMEN | JAS PENS')
 @section('content')
     <br>
     <br>
@@ -9,14 +9,14 @@
 
     <body>
         <div class="container pageleftbox">
-            <h1 class="tittle-utama">Agenda PT Ayang Sejahtera</h1>
+            <h1 class="tittle-utama">Rekrutmen PT Ayang Sejahtera</h1>
             <h5 class="tittle-utama">Jl. Raya ITS, Keputih, Kec. Sukolilo,
                 Kota SBY</h5>
             <br>
             <div class="row">
                 <div class="col-sm-7">
-                    <p>ini isinya tentang penjelasan agenda, bisa ada gambar brosur,
-                        bisa apa aja deh pokoknya disini tuh isi dari penjelasan agenda yang diberikan
+                    <p>ini isinya tentang penjelasan Rekrutmen, bisa ada gambar brosur,
+                        bisa apa aja deh pokoknya disini tuh isi dari penjelasan Rekrutmen yang diberikan
                     </p>
                     <br>
                     <div class="container">
@@ -24,10 +24,43 @@
                     </div>
                     <br>
                     <div class="card">
+                        <h5 class="card-header">List Posisi Rekrutmen</h5>
+                        <div class="card-body">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Nama Posisi</th>
+                                <th scope="col">Syarat dan Ketentuan</th>
+                            </tr>
+                            </thead>
+                            <tbody class="text-tbody">
+                            <tr>
+                                <td>Nama Posisi</td>
+                                <td>Syarat dan Ketentuan</td>
+                            </tr>
+                            <tr>
+                                <td>Nama Posisi</td>
+                                <td>Syarat dan Ketentuan</td>
+                            </tr>
+                            <tr>
+                                <td>Nama Posisi</td>
+                                <td>Syarat dan Ketentuan</td>
+                            </tr>
+                            <tr>
+                                <td>Nama Posisi</td>
+                                <td>Syarat dan Ketentuan</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <a href="#" class="btn btn-primary">Daftar Langsung</a>
+                    </div>
+                    </div>
+                    <div class="card">
                         <h5 class="card-header">Deadline: 23 / 03 / 2022</h5>
                         <div class="card-body">
                             <h5 class="card-title">Profile Perusahaan : PT. Daesang Ingredients Indonesia</h5>
                             <p class="card-text">Perusahaan ini bla bla blaaa</p>
+                            
                         </div>
                     </div>
                 </div>

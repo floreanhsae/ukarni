@@ -178,3 +178,7 @@ Route::get('/homepage/detail-lowongan', function () {
     return view('jas-pens/detail-lowongan');
 });
 
+Route::get('/homepage/detail-rekrutmen', function () {
+    return view('jas-pens/detail-rekrutmen');
+});
+

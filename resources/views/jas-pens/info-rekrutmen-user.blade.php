@@ -33,26 +33,26 @@
                         <tbody class="text-tbody">
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td>Rekrutmen</td>
-                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
+                            <td><a href="/homepage/detail-rekrutmen" class="text-tbody">Rekrutmen</a></td>
+                            <td>Perusahaan</td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td>Rekrutmen</td>
-                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
+                            <td><a href="/homepage/detail-rekrutmen" class="text-tbody">Rekrutmen</a></td>
+                            <td>Perusahaan</td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td>Rekrutmen</td>
-                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
+                            <td><a href="/homepage/detail-rekrutmen" class="text-tbody">Rekrutmen</a></td>
+                            <td>Perusahaan</td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td>Rekrutmen</td>
-                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
+                            <td><a href="/homepage/detail-rekrutmen" class="text-tbody">Rekrutmen</a></td>
+                            <td>Perusahaan</td>
                             <td>Deskripsi</td>
                         </tr>
                         </tbody>

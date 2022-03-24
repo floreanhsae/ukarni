@@ -7,7 +7,7 @@
 <br>
 <body>
     <br>
-    <div class="container">
+    <div class="container pageleftbox">
         <h1 class="tittle-utama">Akreditasi PENS</h1>
         <h5 class="tittle-utama">Nilai Akreditasi dari Badan Akreditasi Nasional Perguruan Tinggi</h5>
         <br>

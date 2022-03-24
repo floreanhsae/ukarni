@@ -7,7 +7,7 @@
 <br>
 <body>
     <br>
-    <div class="container">
+    <div class="container pageleftbox">
         <h1 class="tittle-utama">Info Rekrutmen Perusahaan</h1>
         <br>
     <div class="row">

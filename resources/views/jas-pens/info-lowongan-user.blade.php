@@ -7,7 +7,7 @@
 <br>
 <body>
     <br>
-    <div class="container">
+    <div class="container pageleftbox">
         <h1 class="tittle-utama">Info Lowongan Kerja</h1>
         <br>
     <div class="row">
@@ -33,25 +33,25 @@
                         <tbody class="text-tbody">
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
+                            <td><a href="/homepage/detail-lowongan" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
+                            <td><a href="/homepage/detail-lowongan" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url" class="text-tbody">Lowongan Kerja</a></td>
+                            <td><a href="/homepage/detail-lowongan" class="text-tbody">Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
-                            <td><a href="url" class="text-tbody"x>Lowongan Kerja</a></td>
+                            <td><a href="/homepage/detail-lowongan" class="text-tbody"x>Lowongan Kerja</a></td>
                             <td>Deskripsi</td>
                             <td>Deadline</td>
                         </tr>

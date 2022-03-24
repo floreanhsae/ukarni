@@ -7,7 +7,7 @@
 <br>
 <body>
     <br>
-    <div class="container">
+    <div class="container pageleftbox">
         <h1 class="tittle-utama">Tentang Unit Karir dan Potensi Alumni</h1>
         <br>
     <div class="row">

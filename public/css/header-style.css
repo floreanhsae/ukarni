@@ -240,4 +240,8 @@ table {
     .welcome-description {
         font-size: 20px;
     }
+
+    .pageleftbox{
+        margin-top: 7vh;
+    }
 }

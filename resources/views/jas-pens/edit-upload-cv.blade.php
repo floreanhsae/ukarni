@@ -14,7 +14,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">INFORMASI & LOGIN</h5>
+                    <h5 class="card-title tittle-login">INFORMASI & LOGIN</h5>
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">NP/NRP/NIM</label>
@@ -26,7 +26,7 @@
                         </div>
                 </form>
                     <br>
-                    <h5 class="card-title">DATA PERSONAL</h5>
+                    <h5 class="card-title tittle-login">DATA PERSONAL</h5>
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama</label>

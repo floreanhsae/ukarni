@@ -14,7 +14,7 @@
         <div class="col-sm-7">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">INFORMASI & LOGIN</h5>
+                    <h5 class="card-title tittle-login">INFORMASI & LOGIN</h5>
                     <table class="table">
                         <tbody>
                         <tr>
@@ -28,7 +28,7 @@
                         </tbody>
                     </table>
                     <br>
-                    <h5 class="card-title">DATA PERSONAL</h5>
+                    <h5 class="card-title tittle-login">DATA PERSONAL</h5>
                     <table class="table">
                         <tbody>
                         <tr>
@@ -69,7 +69,7 @@
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">CURRICULUM VITAE</h5>
+                    <h5 class="card-title tittle-login">CURRICULUM VITAE</h5>
                     {{-- <p class="card-text">[Unggah dalam format file .pdf | Maks. 400Kb ]</p> --}}
                     <form>
                     <div class="mb-3">

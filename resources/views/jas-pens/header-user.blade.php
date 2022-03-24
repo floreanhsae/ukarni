@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark py-3">
+<nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
     <div class="container">
         <img class="navbar-brand mr-1" src="{{ url('/img/logojas.png') }}" href="#">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,8 +28,6 @@
             <a class="nav-link px-3" href="/homepage/tentang">Tentang</a>
         </li>
         </ul>
-<<<<<<< HEAD
-
     </div>
     <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">
         <a href="/homepage/upload-cv" type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
@@ -37,13 +35,3 @@
                 class="pl-2 fa fa-arrow-circle-right"></i></a>
     </span>
 </nav>
-=======
-        <div class="my-2 my-md-0">
-            <button type="button" style="white-space: nowrap; font-weight:700; font-size: 1.1rem;"
-            class="px-3 py-2 btn btn-warning">Halo, Ahmad<i
-                class="pl-2 fa fa-arrow-circle-right"></i></button>
-        </div>
-      </div>
-    </div>
-  </nav>
->>>>>>> bf169d6e2768169a4bc562d089344ab41ac64f76

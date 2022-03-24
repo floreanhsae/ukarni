@@ -23,7 +23,7 @@
                             <th scope="col">Akreditasi</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-tbody">
                         <tr>
                             <td>Tanggal Terbit</td>
                             <td>Insitusi / Program Studi </td>
@@ -53,11 +53,11 @@
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Agenda</h4>
+                    <h4 class="card-title tittle-login">Agenda</h4>
                     {{-- <p class="card-text">[Unggah dalam format file .pdf | Maks. 400Kb ]</p> --}}
                     <div class="card agenda">
                         <div class="card-body">
-                            <h4 class="agenda-tittle">Webinar</h4>
+                            <a href="url" class="agenda-tittle">Webinar</a>
                             <p>01 Mei 2022</p>
                             <p>at Zoom Meeting</p>
                             <p>13:30 - 16:00 WIB</p>
@@ -66,7 +66,7 @@
                     <br>
                     <div class="card agenda">
                         <div class="card-body">
-                            <h4 class="agenda-tittle">Webinar</h4>
+                            <a href="url" class="agenda-tittle">Webinar</a>
                             <p>01 Mei 2022</p>
                             <p>at Zoom Meeting</p>
                             <p>13:30 - 16:00 WIB</p>
@@ -75,7 +75,7 @@
                     <br>
                     <div class="card agenda">
                         <div class="card-body">
-                            <h4 class="agenda-tittle">Webinar</h4>
+                            <a href="url" class="agenda-tittle">Webinar</a>
                             <p>01 Mei 2022</p>
                             <p>at Zoom Meeting</p>
                             <p>13:30 - 16:00 WIB</p>
@@ -87,7 +87,4 @@
     </div>
     </div>
 </body>
-
-<br>
-<br>
 @endsection

@@ -73,7 +73,8 @@
                     {{-- <p class="card-text">[Unggah dalam format file .pdf | Maks. 400Kb ]</p> --}}
                     <form>
                     <div class="mb-3">
-                        <label for="formFile" class="form-label"> [Unggah dalam format file .pdf | Maks. 400Kb] </label>
+                        {{-- <label for="formFile" class="form-label"> [Unggah dalam format file .pdf | Maks. 400Kb] </label> --}}
+                        <p class="info-CV">[Unggah dalam format file .pdf | Maks 400 Kb]</p>
                         <input class="form-control" type="file">
                     </div>
                     <a href="#" class="btn btn-primary">Unggah</a>
@@ -85,6 +86,5 @@
     </div>
 </body>
 
-<br>
 <br>
 @endsection

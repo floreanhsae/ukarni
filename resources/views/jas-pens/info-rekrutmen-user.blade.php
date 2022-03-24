@@ -8,7 +8,7 @@
 <body>
     <br>
     <div class="container">
-        <h1>Info Rekrutmen Perusahaan</h1>
+        <h1 class="tittle-utama">Info Rekrutmen Perusahaan</h1>
         <br>
     <div class="row">
         <div class="col-sm-12">
@@ -16,8 +16,8 @@
                 <div class="card-body">
                     <div class="col-4">
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search for Rekrutmen " aria-label="Search">
-                            <button class="btn btn-primary" type="submit">Search</button>
+                            <input class="form-control me-2 search-table" type="search" placeholder="Search for Rekrutmen " aria-label="Search">
+                            {{-- <button class="btn btn-primary" type="submit">Search</button> --}}
                         </form>
                         </div>
                         <br>
@@ -30,29 +30,29 @@
                             <th scope="col">Deskripsi</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-tbody">
                         <tr>
                             <td>Tanggal Terbit</td>
                             <td>Rekrutmen</td>
-                            <td><a href="url">Perusahaan</a></td>
+                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
                             <td>Rekrutmen</td>
-                            <td><a href="url">Perusahaan</a></td>
+                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
                             <td>Rekrutmen</td>
-                            <td><a href="url">Perusahaan</a></td>
+                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
                             <td>Deskripsi</td>
                         </tr>
                         <tr>
                             <td>Tanggal Terbit</td>
                             <td>Rekrutmen</td>
-                            <td><a href="url">Perusahaan</a></td>
+                            <td><a href="url" class="text-tbody">Perusahaan</a></td>
                             <td>Deskripsi</td>
                         </tr>
                         </tbody>
@@ -62,7 +62,4 @@
         </div>
     </div>
 </body>
-
-<br>
-<br>
 @endsection

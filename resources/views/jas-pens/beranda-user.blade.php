@@ -13,10 +13,7 @@
             <div class="col-sm-4 align-self-center">
                 <br>
                 <br>
-                <br>
-                <br>
-
-                        <div class="card">
+                <div class="card">
                             <div class="card-body">
                                 <h4>Webinar</h4>
                                 <p>01 Mei 2022</p>

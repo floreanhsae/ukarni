@@ -8,7 +8,7 @@
 <body>
     <br>
     <div class="container">
-        <h1>Apply Rekrutmen PT. Home Credit Indonesia</h1>
+        <h1 class="tittle-utama">Apply Rekrutmen PT. Home Credit Indonesia</h1>
         <br>
     <div class="row">
         <div class="col-sm-12">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Curriculum Vitae</label>
-                            <p>[Unggah dalam format file .pdf | Maks 400 Kb]</p>
+                            <p class="info-CV">[Unggah dalam format file .pdf | Maks 400 Kb]</p>
                             <input type="file" class="form-control" aria-descril>
                         </div>
                 </form>

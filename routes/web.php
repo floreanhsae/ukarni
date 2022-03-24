@@ -169,3 +169,7 @@ Route::get('/homepage/info-rekrutmen', function () {
 Route::get('/homepage/info-rekrutmen-apply', function () {
     return view('jas-pens/apply-rekrutmen');
 });
+
+Route::get('/homepage/detail-agenda', function () {
+    return view('jas-pens/detail-agenda');
+});

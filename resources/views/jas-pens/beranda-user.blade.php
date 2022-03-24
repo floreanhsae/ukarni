@@ -6,7 +6,7 @@
     <div class="container-fuild header-jaspens">
         <div class="container">
         <div class="row">
-            <div class="col-sm-7 align-self-center">
+            <div class="col-sm-7 my-3 align-self-center">
                 <h1 class="welcome-text">Selamat Datang Alumni PENS!</h1>
                 <h4 class="welcome-description">Temukan Pekerjaan Impianmu Disini dan Wujudkan Masa Depan Gemilang!</h4>
             </div>
@@ -15,7 +15,10 @@
                 <br>
                 <br>
                 <br>
-
+                <br>
+                <br>
+                <br>
+                <br>
                         <div class="card">
                             <div class="card-body">
                                 <h4>Webinar</h4>

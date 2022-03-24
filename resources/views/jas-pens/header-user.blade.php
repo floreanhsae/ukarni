@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark py-3">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
     <div class="container">
         <img class="navbar-brand mr-1" src="{{ url('/img/logojas.png') }}" href="#">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,11 +14,11 @@
             <a class="nav-link px-3" href="/homepage/akreditasi">Akreditasi</a>
           </li>
           <li class="nav-item dropdown px-3" data-bs-toggle="dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info Lowongan</a>
             <div class="dropdown-menu" aria-labelledby="dropdown07">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item py-2" href="#">Action</a>
+              <a class="dropdown-item py-2" href="#">Another action</a>
+              <a class="dropdown-item py-2" href="#">Something else here</a>
             </div>
           </li>
           <li class="nav-item">

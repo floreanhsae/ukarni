@@ -5,7 +5,7 @@
     height: 100vh;
     width: 100%;
 }
-a {
+nav .navbar-nav li a{ 
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -23,13 +23,6 @@ a {
     height: auto;
 }
 
-.wl-textbox {
-    position: absolute;
-    width: 800px;
-    left: 64px;
-    top: 265px;
-}
-
 .welcome-description {
     font-weight: 400;
     font-size: 26px;
@@ -38,14 +31,25 @@ a {
 
 .welcome-text {
     font-style: normal;
+    margin-top: 10vh;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 5em;
     line-height: 78px;
     color: rgb(255, 255, 255);
+    margin-bottom: 30px;
 }
 
 
 /* Resposive */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .welcome-text{
+        font-size: 3em;
+        line-height: normal;
+        margin-top: 20vh;
+        margin-bottom: 10px;
+    }
+    .welcome-description {
+        font-size: 20px;
+    }
 }

@@ -14,7 +14,7 @@
             <a class="nav-link px-3" href="/homepage/akreditasi">Akreditasi</a>
           </li>
           <li class="nav-item dropdown px-3" data-bs-toggle="dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lowongan Kerja</a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lowongan Kerja</a>
             <div class="dropdown-menu" aria-labelledby="dropdown07">
               <a class="dropdown-item py-3" href="/homepage/info-lowongan">Info Lowongan</a>
               <a class="dropdown-item py-3" href="/homepage/info-rekrutmen">Info Rekrutmen</a>

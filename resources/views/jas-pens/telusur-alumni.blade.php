@@ -13,6 +13,7 @@
         <div class="col-sm-7">
             <h4 class="tittle-utama">Kuisioner Telusur Alumni PENS </h4>
             <p>Terima Kasih Atas Partisipasinya</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeGq9Nb4cz1ZMbaX4HERoa75dvfp6nbC0_NaSBJljBtWn6ig/viewform?embedded=true" width="640" height="634" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
         </div>
         <div class="vl"></div>
         <div class="col-sm-4">

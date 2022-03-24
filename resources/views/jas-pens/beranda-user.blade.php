@@ -17,11 +17,6 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
                         <div class="card beranda">
                             <div class="card-body">
                                 <a href="url" class="agenda-tittle">Webinar</a>

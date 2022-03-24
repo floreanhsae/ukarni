@@ -13,12 +13,13 @@
           <li class="nav-item">
             <a class="nav-link px-3" href="/homepage/akreditasi">Akreditasi</a>
           </li>
-          <li class="nav-item dropdown px-3" data-bs-toggle="dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lowongan Kerja</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown07">
-              <a class="dropdown-item py-3" href="/homepage/info-lowongan">Info Lowongan</a>
-              <a class="dropdown-item py-3" href="/homepage/info-rekrutmen">Info Rekrutmen</a>
-            </div>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lowongan Kerja</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item py-2" href="/homepage/info-lowongan">Info Lowongan</a></li>
+              <li><a class="dropdown-item py-2" href="/homepage/info-rekrutmen">Info Rekrutmen</a></li>
+            </ul>
+
           <li class="nav-item">
             <a class="nav-link px-3" style="white-space: nowrap" href="/homepage/telusur-alumni">Telusur Alumni</a>
         </li>

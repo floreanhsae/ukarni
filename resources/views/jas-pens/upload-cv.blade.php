@@ -19,7 +19,7 @@
                         <tbody>
                         <tr>
                             <th scope="row" class="tittle-th">NP/NRP/NIM</th>
-                            <td>: 3120500016</td>
+                            <td>: 3120500007</td>
                         </tr>
                         <tr>
                             <th scope="row" class="tittle-th">Email</th>
@@ -75,7 +75,7 @@
                     <div class="mb-3">
                         {{-- <label for="formFile" class="form-label"> [Unggah dalam format file .pdf | Maks. 400Kb] </label> --}}
                         <p class="info-CV">[Unggah dalam format file .pdf | Maks 400 Kb]</p>
-                        <input class="form-control" type="file">
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
                     </div>
                     <a href="#" class="btn btn-primary">Unggah</a>
                 </form>

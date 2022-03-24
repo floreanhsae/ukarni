@@ -180,6 +180,11 @@ table {
     font-family: "Poppins", sans-serif;
 }
 
+.form-control-file{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
 .btn{
     color: #fff;
     background: #103968;

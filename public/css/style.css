@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #04293A;
 }
 @media (max-width: 1199px) {
   .sidebar {
@@ -599,9 +599,9 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #04293A;
   transition: 0.3;
-  background: #f6f9ff;
+  background: #ECB365;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -618,8 +618,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #899bbd;
 }
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #04293A;
+  background: #ECB365;
 }
 .sidebar-nav .nav-link:hover i {
   color: #4154f1;

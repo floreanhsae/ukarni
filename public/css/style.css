@@ -1,10 +1,3 @@
-/**
-* Template Name: NiceAdmin - v2.2.2
-* Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+  background: #fff;
   color: #444444;
 }
 
@@ -39,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60px;
   padding: 20px 30px;
   transition: all 0.3s;
+  background-image: url('../img/bg-transparan.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 @media (max-width: 1199px) {
   #main {
@@ -69,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #04293A;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -81,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: #ECB365;
   color: #fff;
 }
 .back-to-top.active {
@@ -242,6 +239,58 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.form-label{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-control{
+  border-color:#012970;
+  border-radius: 10px;
+  color: #012970;
+}
+
+.form-select{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  border-color: #012970;
+}
+
+td{
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+th{
+  font-family: "Poppins", sans-serif;
+}
+
+.btn{
+  color: #fff;
+  background: #04293A;
+  font-size: 14px;
+  border-radius: 15px;
+  transition: 0.3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.btn:hover{
+  color: #fff;
+  background: #ECB365;
+  font-size: 14px;
+  border-radius: 15px;
+  transition: 0.3;
+  font-family: "Poppins", sans-serif;
+}
+
 /* Alerts */
 .alert-heading {
   font-weight: 500;
@@ -339,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .logo img {
-  max-height: 26px;
+  max-height: 45px;
   margin-right: 6px;
 }
 .logo span {
@@ -540,6 +589,10 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
   background-color: #04293A;
+<<<<<<< HEAD
+=======
+  ;
+>>>>>>> 2a2f8c17b72b41ebb42a0a7836856d365723a4c9
 }
 @media (max-width: 1199px) {
   .sidebar {
@@ -594,6 +647,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 10px 0 5px 15px;
 }
+
+/* ketika sudah terpilih */
 .sidebar-nav .nav-link {
   display: flex;
   align-items: center;
@@ -603,26 +658,37 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3;
   background: #ECB365;
   padding: 10px 15px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
+
+/* ketika logo sudah di pilih */
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #04293A;
 }
+
+/* ketika tidak di pilih */
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  color: #fff;
+  background: #04293A;
 }
+
+/* logo ketika tidak di pilih */
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: #fff;
 }
+/* ketika di pilih */
 .sidebar-nav .nav-link:hover {
   color: #04293A;
+<<<<<<< HEAD
   background: #ECB365;
+=======
+  background:#ECB365;
+>>>>>>> 2a2f8c17b72b41ebb42a0a7836856d365723a4c9
 }
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #04293A;
 }
 .sidebar-nav .nav-link .bi-chevron-down {
   margin-right: 0;
@@ -1064,6 +1130,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 .footer .copyright {
   text-align: center;
